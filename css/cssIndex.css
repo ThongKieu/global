@@ -1,0 +1,233 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/nen2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+
+a {
+    margin-top: 50%;
+    box-shadow: 0px 0px 7px 2px rgba(114, 114, 114, 1);
+}
+
+.banner {
+    position: absolute;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+    top: 25px;
+}
+
+.banner img {
+    width: 100%;
+    height: 480px;
+    padding: 10px;
+}
+
+.banner a {
+    position: absolute;
+    width: 20%;
+    top: 92%;
+    left: 32%;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+    .banner img {
+        width: 100%;
+        height: 480px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #wrapper {
+        margin-top: 20%;
+    }
+    .banner {
+        width: 90%;
+        margin: 4px;
+    }
+    .banner a {
+        position: absolute;
+        top: 89%;
+        left: 30%;
+        font-size: 10px;
+        width: 25%;
+        height: 17px;
+        padding-top: 0px;
+    }
+    .banner img {
+        width: 100%;
+        height: auto;
+        margin-right: 2px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #wrapper {
+        margin-top: 40% !important;
+        margin-left: 2% !important;
+    }
+    .banner {
+        width: 90%;
+        margin: 4px;
+        margin-top: 47% !important;
+    }
+    .banner a {
+        position: absolute;
+        top: 89%;
+        left: 30%;
+        font-size: 10px;
+        width: 25%;
+        height: 17px;
+        padding-top: 0px;
+    }
+    .btn_language {
+        position: absolute;
+        top: 2px !important;
+        left: 81% !important;
+    }
+    .banner img {
+        width: 100%;
+        height: auto;
+        margin-right: 2px;
+        background: none;
+    }
+    .btn_language ul {
+        border: 1px solid black;
+        padding-left: 0;
+        border-radius: 5px;
+        height: 20px;
+    }
+    .btn_language ul li {
+        display: inline;
+        list-style: none;
+        padding: 5px;
+    }
+    .btn_language ul li a img {
+        width: 17px !important;
+        padding-bottom: 17px !important;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    #wrapper {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .banner {
+        width: 90%;
+        margin: 4px;
+        margin-top: 15px;
+    }
+    .banner a {
+        position: absolute;
+        top: 89%;
+        left: 30%;
+        font-size: 10px;
+        width: 25%;
+        height: 17px;
+        padding-top: 0px;
+    }
+    .banner img {
+        width: 100%;
+        height: auto;
+        margin-right: 2px;
+    }
+    .btn_language {
+        position: absolute;
+        top: 5px;
+        left: 83% !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .banner a {
+        position: absolute;
+        top: 91%;
+        left: 31%;
+        font-size: 17px;
+        width: 20%;
+        height: 30px;
+        padding-top: 0px;
+    }
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .btn_login {
+        margin-top: -2%;
+        width: 48%;
+        margin-left: 8%;
+        font-size: 10px;
+    }
+    .banner img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .banner a {
+        position: absolute;
+        top: 0%;
+        left: 40%;
+        height: 50px;
+        font-size: 30px;
+    }
+    .banner img {
+        width: 100%;
+        height: 100%;
+    }
+    #container {
+        -ms-transform: rotate(-90deg);
+        /* IE 9 */
+        -webkit-transform: rotate(-90deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(-90deg);
+        width: 10px;
+        height: 10px;
+        overflow: scroll;
+    }
+}
+
+.btn_language {
+    position: absolute;
+    top: 5px;
+    left: 90%;
+}
+
+.btn_language ul {
+    border: 1px solid black;
+    padding-left: 0;
+    border-radius: 5px;
+}
+
+.btn_language ul li {
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+
+.btn_language ul li a {
+    text-decoration: none;
+}
+
+.btn_language ul li a img {
+    width: 25px;
+    padding-bottom: 3px;
+}
+
+#imgvi {
+    box-shadow: none;
+}
+
+#imgeng {
+    box-shadow: none;
+}
